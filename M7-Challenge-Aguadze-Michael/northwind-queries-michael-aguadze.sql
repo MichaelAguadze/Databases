@@ -25,7 +25,7 @@ where c.postal_code like "55%";
 --List all customers from zip codes that end with 0
 select *
 from customers c 
-where c.postal_code like "%0"
+where c.postal_code like "%0";
 
 --First name, Last name and email of all customers with a .org email
 select first_name, last_name, email  
